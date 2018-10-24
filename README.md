@@ -1,7 +1,7 @@
 # Java-Carwler-Technology
 Java网络爬虫从入门到实战
 
-# jAVA基础知识
+# JAVA基础知识
 
 
 # 网页内容获取
