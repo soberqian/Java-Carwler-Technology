@@ -1,7 +1,7 @@
 # Java-Carwler-Technology
 网络数据采集技术—Java网络爬虫
 
-&ensp;&ensp; 本书将'**电子工业出版社**出版，另外本人的[我的博客](https://qianyang-hfut.blog.csdn.net/)介绍了大量的网络爬虫知识，有兴趣的可以学习。 为及时更正书中的不恰当的内容，笔者在CSDN博客中创建了一个页面：https://qianyang-hfut.blog.csdn.net/article/details/90483177。 读者可以将书中的问题，以评论的方式反馈给我，笔者针对这些问题进行勘误。
+&ensp;&ensp; 本书将由'**电子工业出版社**出版，另外本人的[我的博客](https://qianyang-hfut.blog.csdn.net/)介绍了大量的网络爬虫知识，有兴趣的可以学习。 为及时更正书中的不恰当的内容，笔者在CSDN博客中创建了一个页面：https://qianyang-hfut.blog.csdn.net/article/details/90483177。 读者可以将书中的问题，以评论的方式反馈给我，笔者针对这些问题进行勘误。
   
 
 # 书稿的完整目录
