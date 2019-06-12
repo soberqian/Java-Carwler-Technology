@@ -1,0 +1,190 @@
+2019/04/23-07:23:23.740746 eb78 RocksDB version: 5.14.2
+2019/04/23-07:23:23.740819 eb78 Git sha rocksdb_build_git_sha:@5089e121166c46956a8a21c8ef967f1896c239de@
+2019/04/23-07:23:23.740885 eb78 Compile date Jul  6 2018
+2019/04/23-07:23:23.740962 eb78 DB SUMMARY
+2019/04/23-07:23:23.741134 eb78 CURRENT file:  CURRENT
+2019/04/23-07:23:23.741200 eb78 IDENTITY file:  IDENTITY
+2019/04/23-07:23:23.741275 eb78 MANIFEST file:  MANIFEST-000020 size: 250 Bytes
+2019/04/23-07:23:23.741337 eb78 SST files in F:\program_work\java_work\CSDNCourse\WebCollectorTest\crawl_proxy\crawldb dir, Total Num: 2, files: 000004.sst 000013.sst 
+2019/04/23-07:23:23.741398 eb78 Write Ahead Log file in F:\program_work\java_work\CSDNCourse\WebCollectorTest\crawl_proxy\crawldb: 000021.log size: 13053 ; 
+2019/04/23-07:23:23.741927 eb78                         Options.error_if_exists: 0
+2019/04/23-07:23:23.742030 eb78                       Options.create_if_missing: 1
+2019/04/23-07:23:23.742078 eb78                         Options.paranoid_checks: 1
+2019/04/23-07:23:23.742109 eb78                                     Options.env: 0000000000B8B5D0
+2019/04/23-07:23:23.742142 eb78                                Options.info_log: 0000000025258060
+2019/04/23-07:23:23.742199 eb78                Options.max_file_opening_threads: 16
+2019/04/23-07:23:23.742229 eb78                              Options.statistics: 0000000000000000
+2019/04/23-07:23:23.742259 eb78                               Options.use_fsync: 0
+2019/04/23-07:23:23.742288 eb78                       Options.max_log_file_size: 0
+2019/04/23-07:23:23.742318 eb78                  Options.max_manifest_file_size: 18446744073709551615
+2019/04/23-07:23:23.742348 eb78                   Options.log_file_time_to_roll: 0
+2019/04/23-07:23:23.742377 eb78                       Options.keep_log_file_num: 1000
+2019/04/23-07:23:23.742407 eb78                    Options.recycle_log_file_num: 0
+2019/04/23-07:23:23.742437 eb78                         Options.allow_fallocate: 1
+2019/04/23-07:23:23.742466 eb78                        Options.allow_mmap_reads: 0
+2019/04/23-07:23:23.742495 eb78                       Options.allow_mmap_writes: 0
+2019/04/23-07:23:23.742525 eb78                        Options.use_direct_reads: 0
+2019/04/23-07:23:23.742554 eb78                        Options.use_direct_io_for_flush_and_compaction: 0
+2019/04/23-07:23:23.742584 eb78          Options.create_missing_column_families: 0
+2019/04/23-07:23:23.742613 eb78                              Options.db_log_dir: 
+2019/04/23-07:23:23.742643 eb78                                 Options.wal_dir: F:\program_work\java_work\CSDNCourse\WebCollectorTest\crawl_proxy\crawldb
+2019/04/23-07:23:23.742673 eb78                Options.table_cache_numshardbits: 6
+2019/04/23-07:23:23.742703 eb78                      Options.max_subcompactions: 1
+2019/04/23-07:23:23.742732 eb78                  Options.max_background_flushes: -1
+2019/04/23-07:23:23.742761 eb78                         Options.WAL_ttl_seconds: 0
+2019/04/23-07:23:23.742791 eb78                       Options.WAL_size_limit_MB: 0
+2019/04/23-07:23:23.742820 eb78             Options.manifest_preallocation_size: 4194304
+2019/04/23-07:23:23.742850 eb78                     Options.is_fd_close_on_exec: 1
+2019/04/23-07:23:23.742879 eb78                   Options.advise_random_on_open: 1
+2019/04/23-07:23:23.742909 eb78                    Options.db_write_buffer_size: 0
+2019/04/23-07:23:23.742938 eb78                    Options.write_buffer_manager: 0000000000B87080
+2019/04/23-07:23:23.742989 eb78         Options.access_hint_on_compaction_start: 1
+2019/04/23-07:23:23.743066 eb78  Options.new_table_reader_for_compaction_inputs: 0
+2019/04/23-07:23:23.743096 eb78           Options.random_access_max_buffer_size: 1048576
+2019/04/23-07:23:23.743125 eb78                      Options.use_adaptive_mutex: 0
+2019/04/23-07:23:23.743155 eb78                            Options.rate_limiter: 0000000000000000
+2019/04/23-07:23:23.743184 eb78     Options.sst_file_manager.rate_bytes_per_sec: 0
+2019/04/23-07:23:23.743214 eb78                       Options.wal_recovery_mode: 2
+2019/04/23-07:23:23.743300 eb78                  Options.enable_thread_tracking: 0
+2019/04/23-07:23:23.743333 eb78                  Options.enable_pipelined_write: 0
+2019/04/23-07:23:23.743363 eb78         Options.allow_concurrent_memtable_write: 1
+2019/04/23-07:23:23.743392 eb78      Options.enable_write_thread_adaptive_yield: 1
+2019/04/23-07:23:23.743422 eb78             Options.write_thread_max_yield_usec: 100
+2019/04/23-07:23:23.743451 eb78            Options.write_thread_slow_yield_usec: 3
+2019/04/23-07:23:23.743481 eb78                               Options.row_cache: None
+2019/04/23-07:23:23.743510 eb78                              Options.wal_filter: None
+2019/04/23-07:23:23.743540 eb78             Options.avoid_flush_during_recovery: 0
+2019/04/23-07:23:23.743569 eb78             Options.allow_ingest_behind: 0
+2019/04/23-07:23:23.743599 eb78             Options.preserve_deletes: 0
+2019/04/23-07:23:23.743628 eb78             Options.two_write_queues: 0
+2019/04/23-07:23:23.743657 eb78             Options.manual_wal_flush: 0
+2019/04/23-07:23:23.743687 eb78             Options.max_background_jobs: 2
+2019/04/23-07:23:23.743716 eb78             Options.max_background_compactions: -1
+2019/04/23-07:23:23.743746 eb78             Options.avoid_flush_during_shutdown: 0
+2019/04/23-07:23:23.743775 eb78           Options.writable_file_max_buffer_size: 1048576
+2019/04/23-07:23:23.743805 eb78             Options.delayed_write_rate : 16777216
+2019/04/23-07:23:23.743834 eb78             Options.max_total_wal_size: 0
+2019/04/23-07:23:23.743864 eb78             Options.delete_obsolete_files_period_micros: 21600000000
+2019/04/23-07:23:23.743893 eb78                   Options.stats_dump_period_sec: 600
+2019/04/23-07:23:23.743923 eb78                          Options.max_open_files: -1
+2019/04/23-07:23:23.743953 eb78                          Options.bytes_per_sync: 0
+2019/04/23-07:23:23.744025 eb78                      Options.wal_bytes_per_sync: 0
+2019/04/23-07:23:23.744084 eb78       Options.compaction_readahead_size: 0
+2019/04/23-07:23:23.744177 eb78 Compression algorithms supported:
+2019/04/23-07:23:23.744235 eb78 	kZSTD supported: 0
+2019/04/23-07:23:23.744309 eb78 	kSnappyCompression supported: 0
+2019/04/23-07:23:23.744367 eb78 	kBZip2Compression supported: 0
+2019/04/23-07:23:23.744426 eb78 	kZlibCompression supported: 0
+2019/04/23-07:23:23.744483 eb78 	kLZ4Compression supported: 0
+2019/04/23-07:23:23.744570 eb78 	kXpressCompression supported: 0
+2019/04/23-07:23:23.744628 eb78 	kLZ4HCCompression supported: 0
+2019/04/23-07:23:23.744698 eb78 	kZSTDNotFinalCompression supported: 0
+2019/04/23-07:23:23.744745 eb78 Fast CRC32 supported: Supported on x86
+2019/04/23-07:23:23.746529 eb78 [c:\users\aretter\code\rocksdb\db\version_set.cc:3085] Recovering from manifest file: MANIFEST-000020
+2019/04/23-07:23:23.746696 eb78 [c:\users\aretter\code\rocksdb\db\column_family.cc:475] --------------- Options for column family [default]:
+2019/04/23-07:23:23.746746 eb78               Options.comparator: leveldb.BytewiseComparator
+2019/04/23-07:23:23.746790 eb78           Options.merge_operator: None
+2019/04/23-07:23:23.746822 eb78        Options.compaction_filter: None
+2019/04/23-07:23:23.746852 eb78        Options.compaction_filter_factory: None
+2019/04/23-07:23:23.746883 eb78         Options.memtable_factory: SkipListFactory
+2019/04/23-07:23:23.746927 eb78            Options.table_factory: BlockBasedTable
+2019/04/23-07:23:23.746995 eb78            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000000025251D10)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 00000000252B0270
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+  enable_index_compression: 1
+  block_align: 0
+2019/04/23-07:23:23.747079 eb78        Options.write_buffer_size: 67108864
+2019/04/23-07:23:23.747112 eb78  Options.max_write_buffer_number: 2
+2019/04/23-07:23:23.747144 eb78          Options.compression: NoCompression
+2019/04/23-07:23:23.747175 eb78                  Options.bottommost_compression: Disabled
+2019/04/23-07:23:23.747206 eb78       Options.prefix_extractor: nullptr
+2019/04/23-07:23:23.747237 eb78   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2019/04/23-07:23:23.747268 eb78             Options.num_levels: 7
+2019/04/23-07:23:23.747299 eb78        Options.min_write_buffer_number_to_merge: 1
+2019/04/23-07:23:23.747330 eb78     Options.max_write_buffer_number_to_maintain: 0
+2019/04/23-07:23:23.747361 eb78            Options.compression_opts.window_bits: -14
+2019/04/23-07:23:23.747392 eb78                  Options.compression_opts.level: -1
+2019/04/23-07:23:23.747423 eb78               Options.compression_opts.strategy: 0
+2019/04/23-07:23:23.747454 eb78         Options.compression_opts.max_dict_bytes: 0
+2019/04/23-07:23:23.747485 eb78         Options.compression_opts.zstd_max_train_bytes: 0
+2019/04/23-07:23:23.747516 eb78      Options.level0_file_num_compaction_trigger: 4
+2019/04/23-07:23:23.747547 eb78          Options.level0_slowdown_writes_trigger: 20
+2019/04/23-07:23:23.747578 eb78              Options.level0_stop_writes_trigger: 36
+2019/04/23-07:23:23.747609 eb78                   Options.target_file_size_base: 67108864
+2019/04/23-07:23:23.747640 eb78             Options.target_file_size_multiplier: 1
+2019/04/23-07:23:23.747671 eb78                Options.max_bytes_for_level_base: 268435456
+2019/04/23-07:23:23.747702 eb78 Options.level_compaction_dynamic_level_bytes: 0
+2019/04/23-07:23:23.747733 eb78          Options.max_bytes_for_level_multiplier: 10.000000
+2019/04/23-07:23:23.747766 eb78 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2019/04/23-07:23:23.747797 eb78 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2019/04/23-07:23:23.747828 eb78 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2019/04/23-07:23:23.747859 eb78 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2019/04/23-07:23:23.747890 eb78 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2019/04/23-07:23:23.747923 eb78 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2019/04/23-07:23:23.747953 eb78 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2019/04/23-07:23:23.747985 eb78       Options.max_sequential_skip_in_iterations: 8
+2019/04/23-07:23:23.748016 eb78                    Options.max_compaction_bytes: 1677721600
+2019/04/23-07:23:23.748047 eb78                        Options.arena_block_size: 8388608
+2019/04/23-07:23:23.748078 eb78   Options.soft_pending_compaction_bytes_limit: 68719476736
+2019/04/23-07:23:23.748109 eb78   Options.hard_pending_compaction_bytes_limit: 274877906944
+2019/04/23-07:23:23.748140 eb78       Options.rate_limit_delay_max_milliseconds: 100
+2019/04/23-07:23:23.748172 eb78                Options.disable_auto_compactions: 0
+2019/04/23-07:23:23.748204 eb78                        Options.compaction_style: kCompactionStyleLevel
+2019/04/23-07:23:23.748236 eb78                          Options.compaction_pri: kByCompensatedSize
+2019/04/23-07:23:23.748267 eb78 Options.compaction_options_universal.size_ratio: 1
+2019/04/23-07:23:23.748298 eb78 Options.compaction_options_universal.min_merge_width: 2
+2019/04/23-07:23:23.748329 eb78 Options.compaction_options_universal.max_merge_width: 4294967295
+2019/04/23-07:23:23.748360 eb78 Options.compaction_options_universal.max_size_amplification_percent: 200
+2019/04/23-07:23:23.748392 eb78 Options.compaction_options_universal.compression_size_percent: -1
+2019/04/23-07:23:23.748423 eb78 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2019/04/23-07:23:23.748456 eb78 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2019/04/23-07:23:23.748487 eb78 Options.compaction_options_fifo.allow_compaction: 0
+2019/04/23-07:23:23.748518 eb78 Options.compaction_options_fifo.ttl: 0
+2019/04/23-07:23:23.748549 eb78                   Options.table_properties_collectors: 
+2019/04/23-07:23:23.748581 eb78                   Options.inplace_update_support: 0
+2019/04/23-07:23:23.748611 eb78                 Options.inplace_update_num_locks: 10000
+2019/04/23-07:23:23.748655 eb78               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2019/04/23-07:23:23.748687 eb78   Options.memtable_huge_page_size: 0
+2019/04/23-07:23:23.748718 eb78                           Options.bloom_locality: 0
+2019/04/23-07:23:23.748749 eb78                    Options.max_successive_merges: 0
+2019/04/23-07:23:23.748780 eb78                Options.optimize_filters_for_hits: 0
+2019/04/23-07:23:23.748811 eb78                Options.paranoid_file_checks: 0
+2019/04/23-07:23:23.748842 eb78                Options.force_consistency_checks: 0
+2019/04/23-07:23:23.748873 eb78                Options.report_bg_io_stats: 0
+2019/04/23-07:23:23.748904 eb78                               Options.ttl: 0
+2019/04/23-07:23:23.750116 eb78 [c:\users\aretter\code\rocksdb\db\version_set.cc:3361] Recovered from manifest file:F:\program_work\java_work\CSDNCourse\WebCollectorTest\crawl_proxy\crawldb/MANIFEST-000020 succeeded,manifest_file_number is 20, next_file_number is 22, last_sequence is 71, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2019/04/23-07:23:23.750162 eb78 [c:\users\aretter\code\rocksdb\db\version_set.cc:3369] Column family [default] (ID 0), log number is 19
+2019/04/23-07:23:23.750404 eb78 EVENT_LOG_v1 {"time_micros": 1555975403750397, "job": 1, "event": "recovery_started", "log_files": [21]}
+2019/04/23-07:23:23.750441 eb78 [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:551] Recovering log #21 mode 2
+2019/04/23-07:23:23.790742 eb78 EVENT_LOG_v1 {"time_micros": 1555975403790716, "cf_name": "default", "job": 1, "event": "table_file_creation", "file_number": 22, "file_size": 10072, "table_properties": {"data_size": 8988, "index_size": 175, "filter_size": 0, "raw_key_size": 5187, "raw_average_key_size": 71, "raw_value_size": 6844, "raw_average_value_size": 93, "num_data_blocks": 3, "num_entries": 73, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/04/23-07:23:23.790955 eb78 [c:\users\aretter\code\rocksdb\db\version_set.cc:2847] Creating manifest 23
+2019/04/23-07:23:23.855075 eb78 EVENT_LOG_v1 {"time_micros": 1555975403855053, "job": 1, "event": "recovery_finished"}
+2019/04/23-07:23:23.894888 eb78 [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:1219] DB pointer 000000002525AB80
+2019/04/23-07:23:29.739170 21d8 [c:\users\aretter\code\rocksdb\db\db_impl.cc:252] Shutdown: canceling all background work
+2019/04/23-07:23:29.800906 21d8 [c:\users\aretter\code\rocksdb\db\db_impl.cc:398] Shutdown complete

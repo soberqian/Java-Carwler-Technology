@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Json</title>
+</head>
+<body>
+	<h2>Java书籍</h2>
+	<p>
+		书籍名称: <span id="bookname"></span><br /> 书籍地址: <span id="bookurl"></span><br />
+		书籍作者: <span id="bookauthor"></span><br />
+	</p>
+	<script>
+		var JSONObject = {
+			"bookname" : "Java编程思想（第4版） ",
+			"bookurl" : "https://item.jd.com/10058164.html",
+			"bookauthor" : " Bruce Eckel！"
+		};
+		document.getElementById("bookname").innerHTML = JSONObject.bookname
+		document.getElementById("bookurl").innerHTML = JSONObject.bookurl
+		document.getElementById("bookauthor").innerHTML = JSONObject.bookauthor
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,222 @@
+2019/04/22-15:02:29.063347 7d84 RocksDB version: 5.14.2
+2019/04/22-15:02:29.063446 7d84 Git sha rocksdb_build_git_sha:@5089e121166c46956a8a21c8ef967f1896c239de@
+2019/04/22-15:02:29.063532 7d84 Compile date Jul  6 2018
+2019/04/22-15:02:29.063612 7d84 DB SUMMARY
+2019/04/22-15:02:29.063844 7d84 CURRENT file:  CURRENT
+2019/04/22-15:02:29.063927 7d84 IDENTITY file:  IDENTITY
+2019/04/22-15:02:29.064023 7d84 MANIFEST file:  MANIFEST-000035 size: 142 Bytes
+2019/04/22-15:02:29.064105 7d84 SST files in F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb dir, Total Num: 5, files: 000004.sst 000013.sst 000019.sst 000028.sst 000033.sst 
+2019/04/22-15:02:29.064186 7d84 Write Ahead Log file in F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb: 000036.log size: 56561 ; 
+2019/04/22-15:02:29.064592 7d84                         Options.error_if_exists: 0
+2019/04/22-15:02:29.064632 7d84                       Options.create_if_missing: 1
+2019/04/22-15:02:29.064665 7d84                         Options.paranoid_checks: 1
+2019/04/22-15:02:29.064697 7d84                                     Options.env: 0000000000925550
+2019/04/22-15:02:29.064729 7d84                                Options.info_log: 0000000024AB4860
+2019/04/22-15:02:29.064761 7d84                Options.max_file_opening_threads: 16
+2019/04/22-15:02:29.064793 7d84                              Options.statistics: 0000000000000000
+2019/04/22-15:02:29.064827 7d84                               Options.use_fsync: 0
+2019/04/22-15:02:29.064864 7d84                       Options.max_log_file_size: 0
+2019/04/22-15:02:29.064900 7d84                  Options.max_manifest_file_size: 18446744073709551615
+2019/04/22-15:02:29.064934 7d84                   Options.log_file_time_to_roll: 0
+2019/04/22-15:02:29.064971 7d84                       Options.keep_log_file_num: 1000
+2019/04/22-15:02:29.065004 7d84                    Options.recycle_log_file_num: 0
+2019/04/22-15:02:29.065036 7d84                         Options.allow_fallocate: 1
+2019/04/22-15:02:29.065067 7d84                        Options.allow_mmap_reads: 0
+2019/04/22-15:02:29.065099 7d84                       Options.allow_mmap_writes: 0
+2019/04/22-15:02:29.065130 7d84                        Options.use_direct_reads: 0
+2019/04/22-15:02:29.065162 7d84                        Options.use_direct_io_for_flush_and_compaction: 0
+2019/04/22-15:02:29.065202 7d84          Options.create_missing_column_families: 0
+2019/04/22-15:02:29.065234 7d84                              Options.db_log_dir: 
+2019/04/22-15:02:29.065266 7d84                                 Options.wal_dir: F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb
+2019/04/22-15:02:29.065298 7d84                Options.table_cache_numshardbits: 6
+2019/04/22-15:02:29.065330 7d84                      Options.max_subcompactions: 1
+2019/04/22-15:02:29.065362 7d84                  Options.max_background_flushes: -1
+2019/04/22-15:02:29.065393 7d84                         Options.WAL_ttl_seconds: 0
+2019/04/22-15:02:29.065425 7d84                       Options.WAL_size_limit_MB: 0
+2019/04/22-15:02:29.065457 7d84             Options.manifest_preallocation_size: 4194304
+2019/04/22-15:02:29.065489 7d84                     Options.is_fd_close_on_exec: 1
+2019/04/22-15:02:29.065521 7d84                   Options.advise_random_on_open: 1
+2019/04/22-15:02:29.065553 7d84                    Options.db_write_buffer_size: 0
+2019/04/22-15:02:29.065584 7d84                    Options.write_buffer_manager: 0000000024AB8BF0
+2019/04/22-15:02:29.065616 7d84         Options.access_hint_on_compaction_start: 1
+2019/04/22-15:02:29.065648 7d84  Options.new_table_reader_for_compaction_inputs: 0
+2019/04/22-15:02:29.065679 7d84           Options.random_access_max_buffer_size: 1048576
+2019/04/22-15:02:29.065711 7d84                      Options.use_adaptive_mutex: 0
+2019/04/22-15:02:29.065742 7d84                            Options.rate_limiter: 0000000000000000
+2019/04/22-15:02:29.065774 7d84     Options.sst_file_manager.rate_bytes_per_sec: 0
+2019/04/22-15:02:29.065885 7d84                       Options.wal_recovery_mode: 2
+2019/04/22-15:02:29.065921 7d84                  Options.enable_thread_tracking: 0
+2019/04/22-15:02:29.065953 7d84                  Options.enable_pipelined_write: 0
+2019/04/22-15:02:29.065985 7d84         Options.allow_concurrent_memtable_write: 1
+2019/04/22-15:02:29.066016 7d84      Options.enable_write_thread_adaptive_yield: 1
+2019/04/22-15:02:29.066048 7d84             Options.write_thread_max_yield_usec: 100
+2019/04/22-15:02:29.066080 7d84            Options.write_thread_slow_yield_usec: 3
+2019/04/22-15:02:29.066111 7d84                               Options.row_cache: None
+2019/04/22-15:02:29.066143 7d84                              Options.wal_filter: None
+2019/04/22-15:02:29.066175 7d84             Options.avoid_flush_during_recovery: 0
+2019/04/22-15:02:29.066206 7d84             Options.allow_ingest_behind: 0
+2019/04/22-15:02:29.066238 7d84             Options.preserve_deletes: 0
+2019/04/22-15:02:29.066269 7d84             Options.two_write_queues: 0
+2019/04/22-15:02:29.066301 7d84             Options.manual_wal_flush: 0
+2019/04/22-15:02:29.066332 7d84             Options.max_background_jobs: 2
+2019/04/22-15:02:29.066364 7d84             Options.max_background_compactions: -1
+2019/04/22-15:02:29.066396 7d84             Options.avoid_flush_during_shutdown: 0
+2019/04/22-15:02:29.066427 7d84           Options.writable_file_max_buffer_size: 1048576
+2019/04/22-15:02:29.066459 7d84             Options.delayed_write_rate : 16777216
+2019/04/22-15:02:29.066491 7d84             Options.max_total_wal_size: 0
+2019/04/22-15:02:29.066522 7d84             Options.delete_obsolete_files_period_micros: 21600000000
+2019/04/22-15:02:29.066554 7d84                   Options.stats_dump_period_sec: 600
+2019/04/22-15:02:29.066586 7d84                          Options.max_open_files: -1
+2019/04/22-15:02:29.066617 7d84                          Options.bytes_per_sync: 0
+2019/04/22-15:02:29.066649 7d84                      Options.wal_bytes_per_sync: 0
+2019/04/22-15:02:29.066681 7d84       Options.compaction_readahead_size: 0
+2019/04/22-15:02:29.066713 7d84 Compression algorithms supported:
+2019/04/22-15:02:29.066745 7d84 	kZSTD supported: 0
+2019/04/22-15:02:29.066776 7d84 	kSnappyCompression supported: 0
+2019/04/22-15:02:29.066808 7d84 	kBZip2Compression supported: 0
+2019/04/22-15:02:29.066848 7d84 	kZlibCompression supported: 0
+2019/04/22-15:02:29.066882 7d84 	kLZ4Compression supported: 0
+2019/04/22-15:02:29.066913 7d84 	kXpressCompression supported: 0
+2019/04/22-15:02:29.066945 7d84 	kLZ4HCCompression supported: 0
+2019/04/22-15:02:29.066976 7d84 	kZSTDNotFinalCompression supported: 0
+2019/04/22-15:02:29.067010 7d84 Fast CRC32 supported: Supported on x86
+2019/04/22-15:02:29.068088 7d84 [c:\users\aretter\code\rocksdb\db\version_set.cc:3085] Recovering from manifest file: MANIFEST-000035
+2019/04/22-15:02:29.068218 7d84 [c:\users\aretter\code\rocksdb\db\column_family.cc:475] --------------- Options for column family [default]:
+2019/04/22-15:02:29.068256 7d84               Options.comparator: leveldb.BytewiseComparator
+2019/04/22-15:02:29.068288 7d84           Options.merge_operator: None
+2019/04/22-15:02:29.068320 7d84        Options.compaction_filter: None
+2019/04/22-15:02:29.068351 7d84        Options.compaction_filter_factory: None
+2019/04/22-15:02:29.068383 7d84         Options.memtable_factory: SkipListFactory
+2019/04/22-15:02:29.068414 7d84            Options.table_factory: BlockBasedTable
+2019/04/22-15:02:29.068475 7d84            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000000024AD4E10)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0000000024D15A20
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+  enable_index_compression: 1
+  block_align: 0
+2019/04/22-15:02:29.068567 7d84        Options.write_buffer_size: 67108864
+2019/04/22-15:02:29.068601 7d84  Options.max_write_buffer_number: 2
+2019/04/22-15:02:29.068633 7d84          Options.compression: NoCompression
+2019/04/22-15:02:29.068665 7d84                  Options.bottommost_compression: Disabled
+2019/04/22-15:02:29.068696 7d84       Options.prefix_extractor: nullptr
+2019/04/22-15:02:29.068728 7d84   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2019/04/22-15:02:29.068759 7d84             Options.num_levels: 7
+2019/04/22-15:02:29.068791 7d84        Options.min_write_buffer_number_to_merge: 1
+2019/04/22-15:02:29.068829 7d84     Options.max_write_buffer_number_to_maintain: 0
+2019/04/22-15:02:29.068875 7d84            Options.compression_opts.window_bits: -14
+2019/04/22-15:02:29.068907 7d84                  Options.compression_opts.level: -1
+2019/04/22-15:02:29.068939 7d84               Options.compression_opts.strategy: 0
+2019/04/22-15:02:29.068970 7d84         Options.compression_opts.max_dict_bytes: 0
+2019/04/22-15:02:29.069002 7d84         Options.compression_opts.zstd_max_train_bytes: 0
+2019/04/22-15:02:29.069033 7d84      Options.level0_file_num_compaction_trigger: 4
+2019/04/22-15:02:29.069065 7d84          Options.level0_slowdown_writes_trigger: 20
+2019/04/22-15:02:29.069096 7d84              Options.level0_stop_writes_trigger: 36
+2019/04/22-15:02:29.069128 7d84                   Options.target_file_size_base: 67108864
+2019/04/22-15:02:29.069159 7d84             Options.target_file_size_multiplier: 1
+2019/04/22-15:02:29.069191 7d84                Options.max_bytes_for_level_base: 268435456
+2019/04/22-15:02:29.069222 7d84 Options.level_compaction_dynamic_level_bytes: 0
+2019/04/22-15:02:29.069254 7d84          Options.max_bytes_for_level_multiplier: 10.000000
+2019/04/22-15:02:29.069287 7d84 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2019/04/22-15:02:29.069318 7d84 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2019/04/22-15:02:29.069350 7d84 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2019/04/22-15:02:29.069381 7d84 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2019/04/22-15:02:29.069413 7d84 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2019/04/22-15:02:29.069444 7d84 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2019/04/22-15:02:29.069476 7d84 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2019/04/22-15:02:29.069507 7d84       Options.max_sequential_skip_in_iterations: 8
+2019/04/22-15:02:29.069539 7d84                    Options.max_compaction_bytes: 1677721600
+2019/04/22-15:02:29.069570 7d84                        Options.arena_block_size: 8388608
+2019/04/22-15:02:29.069602 7d84   Options.soft_pending_compaction_bytes_limit: 68719476736
+2019/04/22-15:02:29.069633 7d84   Options.hard_pending_compaction_bytes_limit: 274877906944
+2019/04/22-15:02:29.069665 7d84       Options.rate_limit_delay_max_milliseconds: 100
+2019/04/22-15:02:29.069697 7d84                Options.disable_auto_compactions: 0
+2019/04/22-15:02:29.069729 7d84                        Options.compaction_style: kCompactionStyleLevel
+2019/04/22-15:02:29.069761 7d84                          Options.compaction_pri: kByCompensatedSize
+2019/04/22-15:02:29.069792 7d84 Options.compaction_options_universal.size_ratio: 1
+2019/04/22-15:02:29.069824 7d84 Options.compaction_options_universal.min_merge_width: 2
+2019/04/22-15:02:29.069869 7d84 Options.compaction_options_universal.max_merge_width: 4294967295
+2019/04/22-15:02:29.069911 7d84 Options.compaction_options_universal.max_size_amplification_percent: 200
+2019/04/22-15:02:29.069960 7d84 Options.compaction_options_universal.compression_size_percent: -1
+2019/04/22-15:02:29.069998 7d84 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2019/04/22-15:02:29.070039 7d84 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2019/04/22-15:02:29.070073 7d84 Options.compaction_options_fifo.allow_compaction: 0
+2019/04/22-15:02:29.070105 7d84 Options.compaction_options_fifo.ttl: 0
+2019/04/22-15:02:29.070137 7d84                   Options.table_properties_collectors: 
+2019/04/22-15:02:29.070169 7d84                   Options.inplace_update_support: 0
+2019/04/22-15:02:29.070201 7d84                 Options.inplace_update_num_locks: 10000
+2019/04/22-15:02:29.070233 7d84               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2019/04/22-15:02:29.070265 7d84   Options.memtable_huge_page_size: 0
+2019/04/22-15:02:29.070297 7d84                           Options.bloom_locality: 0
+2019/04/22-15:02:29.070329 7d84                    Options.max_successive_merges: 0
+2019/04/22-15:02:29.070361 7d84                Options.optimize_filters_for_hits: 0
+2019/04/22-15:02:29.070392 7d84                Options.paranoid_file_checks: 0
+2019/04/22-15:02:29.070424 7d84                Options.force_consistency_checks: 0
+2019/04/22-15:02:29.070456 7d84                Options.report_bg_io_stats: 0
+2019/04/22-15:02:29.070488 7d84                               Options.ttl: 0
+2019/04/22-15:02:29.071589 7d84 [c:\users\aretter\code\rocksdb\db\version_set.cc:3361] Recovered from manifest file:F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/MANIFEST-000035 succeeded,manifest_file_number is 35, next_file_number is 37, last_sequence is 637, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2019/04/22-15:02:29.071633 7d84 [c:\users\aretter\code\rocksdb\db\version_set.cc:3369] Column family [default] (ID 0), log number is 31
+2019/04/22-15:02:29.071917 7d84 EVENT_LOG_v1 {"time_micros": 1555916549071909, "job": 1, "event": "recovery_started", "log_files": [36]}
+2019/04/22-15:02:29.071956 7d84 [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:551] Recovering log #36 mode 2
+2019/04/22-15:02:29.116653 7d84 EVENT_LOG_v1 {"time_micros": 1555916549116634, "cf_name": "default", "job": 1, "event": "table_file_creation", "file_number": 37, "file_size": 39680, "table_properties": {"data_size": 38070, "index_size": 696, "filter_size": 0, "raw_key_size": 22439, "raw_average_key_size": 71, "raw_value_size": 29691, "raw_average_value_size": 93, "num_data_blocks": 10, "num_entries": 316, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/04/22-15:02:29.116889 7d84 [c:\users\aretter\code\rocksdb\db\version_set.cc:2847] Creating manifest 38
+2019/04/22-15:02:29.175104 7d84 EVENT_LOG_v1 {"time_micros": 1555916549175097, "job": 1, "event": "recovery_finished"}
+2019/04/22-15:02:29.178752 7d84 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 2] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000028.sst type=2 #28 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000028.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/22-15:02:29.178810 7d84 EVENT_LOG_v1 {"time_micros": 1555916549178800, "job": 2, "event": "table_file_deletion", "file_number": 28, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000028.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/22-15:02:29.178941 7d84 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 2] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000019.sst type=2 #19 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000019.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/22-15:02:29.178986 7d84 EVENT_LOG_v1 {"time_micros": 1555916549178980, "job": 2, "event": "table_file_deletion", "file_number": 19, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000019.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/22-15:02:29.179171 7d84 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 2] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000013.sst type=2 #13 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000013.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/22-15:02:29.179217 7d84 EVENT_LOG_v1 {"time_micros": 1555916549179211, "job": 2, "event": "table_file_deletion", "file_number": 13, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000013.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/22-15:02:29.179341 7d84 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 2] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000004.sst type=2 #4 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000004.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/22-15:02:29.179384 7d84 EVENT_LOG_v1 {"time_micros": 1555916549179379, "job": 2, "event": "table_file_deletion", "file_number": 4, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000004.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/22-15:02:29.222037 7d84 [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:1219] DB pointer 0000000024CFBF40
+2019/04/22-15:02:43.063585 36fc [c:\users\aretter\code\rocksdb\db\db_impl.cc:252] Shutdown: canceling all background work
+2019/04/22-15:02:43.064109 36fc [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 3] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000028.sst type=2 #28 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000028.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/22-15:02:43.064164 36fc EVENT_LOG_v1 {"time_micros": 1555916563064154, "job": 3, "event": "table_file_deletion", "file_number": 28, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000028.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/22-15:02:43.064292 36fc [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 3] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000019.sst type=2 #19 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000019.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/22-15:02:43.064336 36fc EVENT_LOG_v1 {"time_micros": 1555916563064329, "job": 3, "event": "table_file_deletion", "file_number": 19, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000019.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/22-15:02:43.064504 36fc [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 3] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000013.sst type=2 #13 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000013.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/22-15:02:43.064546 36fc EVENT_LOG_v1 {"time_micros": 1555916563064541, "job": 3, "event": "table_file_deletion", "file_number": 13, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000013.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/22-15:02:43.064668 36fc [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 3] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000004.sst type=2 #4 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000004.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/22-15:02:43.064710 36fc EVENT_LOG_v1 {"time_micros": 1555916563064705, "job": 3, "event": "table_file_deletion", "file_number": 4, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\sinaNewsCrawler\crawldb/000004.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/22-15:02:43.110793 36fc [c:\users\aretter\code\rocksdb\db\db_impl.cc:398] Shutdown complete

@@ -1,0 +1,189 @@
+2019/04/23-08:28:04.618798 fd68 RocksDB version: 5.14.2
+2019/04/23-08:28:04.618903 fd68 Git sha rocksdb_build_git_sha:@5089e121166c46956a8a21c8ef967f1896c239de@
+2019/04/23-08:28:04.618973 fd68 Compile date Jul  6 2018
+2019/04/23-08:28:04.619043 fd68 DB SUMMARY
+2019/04/23-08:28:04.619358 fd68 CURRENT file:  CURRENT
+2019/04/23-08:28:04.619449 fd68 IDENTITY file:  IDENTITY
+2019/04/23-08:28:04.619543 fd68 MANIFEST file:  MANIFEST-000047 size: 491 Bytes
+2019/04/23-08:28:04.619612 fd68 SST files in F:\program_work\java_work\CSDNCourse\WebCollectorTest\crawl_proxy\crawldb dir, Total Num: 3, files: 000033.sst 000037.sst 000046.sst 
+2019/04/23-08:28:04.619705 fd68 Write Ahead Log file in F:\program_work\java_work\CSDNCourse\WebCollectorTest\crawl_proxy\crawldb: 000048.log size: 0 ; 
+2019/04/23-08:28:04.620152 fd68                         Options.error_if_exists: 0
+2019/04/23-08:28:04.620205 fd68                       Options.create_if_missing: 1
+2019/04/23-08:28:04.620240 fd68                         Options.paranoid_checks: 1
+2019/04/23-08:28:04.620276 fd68                                     Options.env: 00000000012A9020
+2019/04/23-08:28:04.620314 fd68                                Options.info_log: 00000000254A3BC0
+2019/04/23-08:28:04.620353 fd68                Options.max_file_opening_threads: 16
+2019/04/23-08:28:04.620436 fd68                              Options.statistics: 0000000000000000
+2019/04/23-08:28:04.620485 fd68                               Options.use_fsync: 0
+2019/04/23-08:28:04.620557 fd68                       Options.max_log_file_size: 0
+2019/04/23-08:28:04.620633 fd68                  Options.max_manifest_file_size: 18446744073709551615
+2019/04/23-08:28:04.620705 fd68                   Options.log_file_time_to_roll: 0
+2019/04/23-08:28:04.620761 fd68                       Options.keep_log_file_num: 1000
+2019/04/23-08:28:04.620820 fd68                    Options.recycle_log_file_num: 0
+2019/04/23-08:28:04.620906 fd68                         Options.allow_fallocate: 1
+2019/04/23-08:28:04.620977 fd68                        Options.allow_mmap_reads: 0
+2019/04/23-08:28:04.621035 fd68                       Options.allow_mmap_writes: 0
+2019/04/23-08:28:04.621093 fd68                        Options.use_direct_reads: 0
+2019/04/23-08:28:04.621136 fd68                        Options.use_direct_io_for_flush_and_compaction: 0
+2019/04/23-08:28:04.621199 fd68          Options.create_missing_column_families: 0
+2019/04/23-08:28:04.621236 fd68                              Options.db_log_dir: 
+2019/04/23-08:28:04.621296 fd68                                 Options.wal_dir: F:\program_work\java_work\CSDNCourse\WebCollectorTest\crawl_proxy\crawldb
+2019/04/23-08:28:04.621354 fd68                Options.table_cache_numshardbits: 6
+2019/04/23-08:28:04.621427 fd68                      Options.max_subcompactions: 1
+2019/04/23-08:28:04.621498 fd68                  Options.max_background_flushes: -1
+2019/04/23-08:28:04.621530 fd68                         Options.WAL_ttl_seconds: 0
+2019/04/23-08:28:04.621561 fd68                       Options.WAL_size_limit_MB: 0
+2019/04/23-08:28:04.621637 fd68             Options.manifest_preallocation_size: 4194304
+2019/04/23-08:28:04.621710 fd68                     Options.is_fd_close_on_exec: 1
+2019/04/23-08:28:04.621767 fd68                   Options.advise_random_on_open: 1
+2019/04/23-08:28:04.621798 fd68                    Options.db_write_buffer_size: 0
+2019/04/23-08:28:04.621829 fd68                    Options.write_buffer_manager: 00000000254D9CC0
+2019/04/23-08:28:04.621861 fd68         Options.access_hint_on_compaction_start: 1
+2019/04/23-08:28:04.621892 fd68  Options.new_table_reader_for_compaction_inputs: 0
+2019/04/23-08:28:04.621923 fd68           Options.random_access_max_buffer_size: 1048576
+2019/04/23-08:28:04.621954 fd68                      Options.use_adaptive_mutex: 0
+2019/04/23-08:28:04.621985 fd68                            Options.rate_limiter: 0000000000000000
+2019/04/23-08:28:04.622030 fd68     Options.sst_file_manager.rate_bytes_per_sec: 0
+2019/04/23-08:28:04.622061 fd68                       Options.wal_recovery_mode: 2
+2019/04/23-08:28:04.622200 fd68                  Options.enable_thread_tracking: 0
+2019/04/23-08:28:04.622249 fd68                  Options.enable_pipelined_write: 0
+2019/04/23-08:28:04.622280 fd68         Options.allow_concurrent_memtable_write: 1
+2019/04/23-08:28:04.622311 fd68      Options.enable_write_thread_adaptive_yield: 1
+2019/04/23-08:28:04.622343 fd68             Options.write_thread_max_yield_usec: 100
+2019/04/23-08:28:04.622405 fd68            Options.write_thread_slow_yield_usec: 3
+2019/04/23-08:28:04.622441 fd68                               Options.row_cache: None
+2019/04/23-08:28:04.622486 fd68                              Options.wal_filter: None
+2019/04/23-08:28:04.622533 fd68             Options.avoid_flush_during_recovery: 0
+2019/04/23-08:28:04.622578 fd68             Options.allow_ingest_behind: 0
+2019/04/23-08:28:04.622638 fd68             Options.preserve_deletes: 0
+2019/04/23-08:28:04.622668 fd68             Options.two_write_queues: 0
+2019/04/23-08:28:04.622700 fd68             Options.manual_wal_flush: 0
+2019/04/23-08:28:04.622738 fd68             Options.max_background_jobs: 2
+2019/04/23-08:28:04.622787 fd68             Options.max_background_compactions: -1
+2019/04/23-08:28:04.622833 fd68             Options.avoid_flush_during_shutdown: 0
+2019/04/23-08:28:04.622864 fd68           Options.writable_file_max_buffer_size: 1048576
+2019/04/23-08:28:04.622898 fd68             Options.delayed_write_rate : 16777216
+2019/04/23-08:28:04.622952 fd68             Options.max_total_wal_size: 0
+2019/04/23-08:28:04.623004 fd68             Options.delete_obsolete_files_period_micros: 21600000000
+2019/04/23-08:28:04.623059 fd68                   Options.stats_dump_period_sec: 600
+2019/04/23-08:28:04.623110 fd68                          Options.max_open_files: -1
+2019/04/23-08:28:04.623179 fd68                          Options.bytes_per_sync: 0
+2019/04/23-08:28:04.623232 fd68                      Options.wal_bytes_per_sync: 0
+2019/04/23-08:28:04.623285 fd68       Options.compaction_readahead_size: 0
+2019/04/23-08:28:04.623325 fd68 Compression algorithms supported:
+2019/04/23-08:28:04.623384 fd68 	kZSTD supported: 0
+2019/04/23-08:28:04.623452 fd68 	kSnappyCompression supported: 0
+2019/04/23-08:28:04.623485 fd68 	kBZip2Compression supported: 0
+2019/04/23-08:28:04.623516 fd68 	kZlibCompression supported: 0
+2019/04/23-08:28:04.623546 fd68 	kLZ4Compression supported: 0
+2019/04/23-08:28:04.623576 fd68 	kXpressCompression supported: 0
+2019/04/23-08:28:04.623606 fd68 	kLZ4HCCompression supported: 0
+2019/04/23-08:28:04.623636 fd68 	kZSTDNotFinalCompression supported: 0
+2019/04/23-08:28:04.623678 fd68 Fast CRC32 supported: Supported on x86
+2019/04/23-08:28:04.624867 fd68 [c:\users\aretter\code\rocksdb\db\version_set.cc:3085] Recovering from manifest file: MANIFEST-000047
+2019/04/23-08:28:04.625092 fd68 [c:\users\aretter\code\rocksdb\db\column_family.cc:475] --------------- Options for column family [default]:
+2019/04/23-08:28:04.625137 fd68               Options.comparator: leveldb.BytewiseComparator
+2019/04/23-08:28:04.625171 fd68           Options.merge_operator: None
+2019/04/23-08:28:04.625235 fd68        Options.compaction_filter: None
+2019/04/23-08:28:04.625272 fd68        Options.compaction_filter_factory: None
+2019/04/23-08:28:04.625314 fd68         Options.memtable_factory: SkipListFactory
+2019/04/23-08:28:04.625354 fd68            Options.table_factory: BlockBasedTable
+2019/04/23-08:28:04.625485 fd68            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (00000000012835C0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0000000001361F50
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+  enable_index_compression: 1
+  block_align: 0
+2019/04/23-08:28:04.625679 fd68        Options.write_buffer_size: 67108864
+2019/04/23-08:28:04.625721 fd68  Options.max_write_buffer_number: 2
+2019/04/23-08:28:04.625767 fd68          Options.compression: NoCompression
+2019/04/23-08:28:04.625797 fd68                  Options.bottommost_compression: Disabled
+2019/04/23-08:28:04.625827 fd68       Options.prefix_extractor: nullptr
+2019/04/23-08:28:04.625858 fd68   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2019/04/23-08:28:04.625888 fd68             Options.num_levels: 7
+2019/04/23-08:28:04.625918 fd68        Options.min_write_buffer_number_to_merge: 1
+2019/04/23-08:28:04.625948 fd68     Options.max_write_buffer_number_to_maintain: 0
+2019/04/23-08:28:04.625978 fd68            Options.compression_opts.window_bits: -14
+2019/04/23-08:28:04.626008 fd68                  Options.compression_opts.level: -1
+2019/04/23-08:28:04.626038 fd68               Options.compression_opts.strategy: 0
+2019/04/23-08:28:04.626069 fd68         Options.compression_opts.max_dict_bytes: 0
+2019/04/23-08:28:04.626099 fd68         Options.compression_opts.zstd_max_train_bytes: 0
+2019/04/23-08:28:04.626129 fd68      Options.level0_file_num_compaction_trigger: 4
+2019/04/23-08:28:04.626160 fd68          Options.level0_slowdown_writes_trigger: 20
+2019/04/23-08:28:04.626208 fd68              Options.level0_stop_writes_trigger: 36
+2019/04/23-08:28:04.626251 fd68                   Options.target_file_size_base: 67108864
+2019/04/23-08:28:04.626282 fd68             Options.target_file_size_multiplier: 1
+2019/04/23-08:28:04.626312 fd68                Options.max_bytes_for_level_base: 268435456
+2019/04/23-08:28:04.626342 fd68 Options.level_compaction_dynamic_level_bytes: 0
+2019/04/23-08:28:04.626372 fd68          Options.max_bytes_for_level_multiplier: 10.000000
+2019/04/23-08:28:04.626416 fd68 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2019/04/23-08:28:04.626446 fd68 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2019/04/23-08:28:04.626476 fd68 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2019/04/23-08:28:04.626506 fd68 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2019/04/23-08:28:04.626536 fd68 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2019/04/23-08:28:04.626567 fd68 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2019/04/23-08:28:04.626597 fd68 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2019/04/23-08:28:04.626627 fd68       Options.max_sequential_skip_in_iterations: 8
+2019/04/23-08:28:04.626657 fd68                    Options.max_compaction_bytes: 1677721600
+2019/04/23-08:28:04.626688 fd68                        Options.arena_block_size: 8388608
+2019/04/23-08:28:04.626718 fd68   Options.soft_pending_compaction_bytes_limit: 68719476736
+2019/04/23-08:28:04.626748 fd68   Options.hard_pending_compaction_bytes_limit: 274877906944
+2019/04/23-08:28:04.626778 fd68       Options.rate_limit_delay_max_milliseconds: 100
+2019/04/23-08:28:04.626808 fd68                Options.disable_auto_compactions: 0
+2019/04/23-08:28:04.626840 fd68                        Options.compaction_style: kCompactionStyleLevel
+2019/04/23-08:28:04.626870 fd68                          Options.compaction_pri: kByCompensatedSize
+2019/04/23-08:28:04.626901 fd68 Options.compaction_options_universal.size_ratio: 1
+2019/04/23-08:28:04.626931 fd68 Options.compaction_options_universal.min_merge_width: 2
+2019/04/23-08:28:04.626961 fd68 Options.compaction_options_universal.max_merge_width: 4294967295
+2019/04/23-08:28:04.626992 fd68 Options.compaction_options_universal.max_size_amplification_percent: 200
+2019/04/23-08:28:04.627022 fd68 Options.compaction_options_universal.compression_size_percent: -1
+2019/04/23-08:28:04.627053 fd68 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2019/04/23-08:28:04.627085 fd68 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2019/04/23-08:28:04.627116 fd68 Options.compaction_options_fifo.allow_compaction: 0
+2019/04/23-08:28:04.627146 fd68 Options.compaction_options_fifo.ttl: 0
+2019/04/23-08:28:04.627182 fd68                   Options.table_properties_collectors: 
+2019/04/23-08:28:04.627214 fd68                   Options.inplace_update_support: 0
+2019/04/23-08:28:04.627244 fd68                 Options.inplace_update_num_locks: 10000
+2019/04/23-08:28:04.627274 fd68               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2019/04/23-08:28:04.627305 fd68   Options.memtable_huge_page_size: 0
+2019/04/23-08:28:04.627335 fd68                           Options.bloom_locality: 0
+2019/04/23-08:28:04.627365 fd68                    Options.max_successive_merges: 0
+2019/04/23-08:28:04.627395 fd68                Options.optimize_filters_for_hits: 0
+2019/04/23-08:28:04.627426 fd68                Options.paranoid_file_checks: 0
+2019/04/23-08:28:04.627456 fd68                Options.force_consistency_checks: 0
+2019/04/23-08:28:04.627486 fd68                Options.report_bg_io_stats: 0
+2019/04/23-08:28:04.627516 fd68                               Options.ttl: 0
+2019/04/23-08:28:04.628887 fd68 [c:\users\aretter\code\rocksdb\db\version_set.cc:3361] Recovered from manifest file:F:\program_work\java_work\CSDNCourse\WebCollectorTest\crawl_proxy\crawldb/MANIFEST-000047 succeeded,manifest_file_number is 47, next_file_number is 49, last_sequence is 360, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2019/04/23-08:28:04.628929 fd68 [c:\users\aretter\code\rocksdb\db\version_set.cc:3369] Column family [default] (ID 0), log number is 46
+2019/04/23-08:28:04.629315 fd68 EVENT_LOG_v1 {"time_micros": 1555979284629261, "job": 1, "event": "recovery_started", "log_files": [48]}
+2019/04/23-08:28:04.629353 fd68 [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:551] Recovering log #48 mode 2
+2019/04/23-08:28:04.629537 fd68 [c:\users\aretter\code\rocksdb\db\version_set.cc:2847] Creating manifest 50
+2019/04/23-08:28:04.723860 fd68 EVENT_LOG_v1 {"time_micros": 1555979284723853, "job": 1, "event": "recovery_finished"}
+2019/04/23-08:28:04.764650 fd68 [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:1219] DB pointer 00000000254E86A0
+2019/04/23-08:28:04.765114 fd68 [c:\users\aretter\code\rocksdb\db\db_impl.cc:252] Shutdown: canceling all background work
+2019/04/23-08:28:04.793403 fd68 [c:\users\aretter\code\rocksdb\db\db_impl.cc:398] Shutdown complete

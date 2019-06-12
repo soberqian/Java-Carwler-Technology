@@ -1,0 +1,262 @@
+2019/04/25-11:21:15.538608 3b88 RocksDB version: 5.14.2
+2019/04/25-11:21:15.538678 3b88 Git sha rocksdb_build_git_sha:@5089e121166c46956a8a21c8ef967f1896c239de@
+2019/04/25-11:21:15.538751 3b88 Compile date Jul  6 2018
+2019/04/25-11:21:15.538819 3b88 DB SUMMARY
+2019/04/25-11:21:15.539026 3b88 CURRENT file:  CURRENT
+2019/04/25-11:21:15.539099 3b88 IDENTITY file:  IDENTITY
+2019/04/25-11:21:15.539179 3b88 MANIFEST file:  MANIFEST-000071 size: 504 Bytes
+2019/04/25-11:21:15.539249 3b88 SST files in F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb dir, Total Num: 12, files: 000004.sst 000013.sst 000019.sst 000025.sst 000030.sst 000034.sst 000040.sst 000046.sst 000052.sst 
+2019/04/25-11:21:15.539317 3b88 Write Ahead Log file in F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb: 000072.log size: 48815 ; 
+2019/04/25-11:21:15.539846 3b88                         Options.error_if_exists: 0
+2019/04/25-11:21:15.539886 3b88                       Options.create_if_missing: 1
+2019/04/25-11:21:15.539965 3b88                         Options.paranoid_checks: 1
+2019/04/25-11:21:15.540005 3b88                                     Options.env: 0000000000DF2670
+2019/04/25-11:21:15.540039 3b88                                Options.info_log: 0000000025112C90
+2019/04/25-11:21:15.540072 3b88                Options.max_file_opening_threads: 16
+2019/04/25-11:21:15.540105 3b88                              Options.statistics: 0000000000000000
+2019/04/25-11:21:15.540138 3b88                               Options.use_fsync: 0
+2019/04/25-11:21:15.540170 3b88                       Options.max_log_file_size: 0
+2019/04/25-11:21:15.540203 3b88                  Options.max_manifest_file_size: 18446744073709551615
+2019/04/25-11:21:15.540236 3b88                   Options.log_file_time_to_roll: 0
+2019/04/25-11:21:15.540269 3b88                       Options.keep_log_file_num: 1000
+2019/04/25-11:21:15.540301 3b88                    Options.recycle_log_file_num: 0
+2019/04/25-11:21:15.540334 3b88                         Options.allow_fallocate: 1
+2019/04/25-11:21:15.540367 3b88                        Options.allow_mmap_reads: 0
+2019/04/25-11:21:15.540399 3b88                       Options.allow_mmap_writes: 0
+2019/04/25-11:21:15.540432 3b88                        Options.use_direct_reads: 0
+2019/04/25-11:21:15.540464 3b88                        Options.use_direct_io_for_flush_and_compaction: 0
+2019/04/25-11:21:15.540497 3b88          Options.create_missing_column_families: 0
+2019/04/25-11:21:15.540530 3b88                              Options.db_log_dir: 
+2019/04/25-11:21:15.540563 3b88                                 Options.wal_dir: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb
+2019/04/25-11:21:15.540596 3b88                Options.table_cache_numshardbits: 6
+2019/04/25-11:21:15.540629 3b88                      Options.max_subcompactions: 1
+2019/04/25-11:21:15.540662 3b88                  Options.max_background_flushes: -1
+2019/04/25-11:21:15.540694 3b88                         Options.WAL_ttl_seconds: 0
+2019/04/25-11:21:15.540727 3b88                       Options.WAL_size_limit_MB: 0
+2019/04/25-11:21:15.540760 3b88             Options.manifest_preallocation_size: 4194304
+2019/04/25-11:21:15.540792 3b88                     Options.is_fd_close_on_exec: 1
+2019/04/25-11:21:15.540825 3b88                   Options.advise_random_on_open: 1
+2019/04/25-11:21:15.540857 3b88                    Options.db_write_buffer_size: 0
+2019/04/25-11:21:15.540890 3b88                    Options.write_buffer_manager: 000000002515B2B0
+2019/04/25-11:21:15.540925 3b88         Options.access_hint_on_compaction_start: 1
+2019/04/25-11:21:15.540957 3b88  Options.new_table_reader_for_compaction_inputs: 0
+2019/04/25-11:21:15.540990 3b88           Options.random_access_max_buffer_size: 1048576
+2019/04/25-11:21:15.541022 3b88                      Options.use_adaptive_mutex: 0
+2019/04/25-11:21:15.541055 3b88                            Options.rate_limiter: 0000000000000000
+2019/04/25-11:21:15.541088 3b88     Options.sst_file_manager.rate_bytes_per_sec: 0
+2019/04/25-11:21:15.541174 3b88                       Options.wal_recovery_mode: 2
+2019/04/25-11:21:15.541210 3b88                  Options.enable_thread_tracking: 0
+2019/04/25-11:21:15.541243 3b88                  Options.enable_pipelined_write: 0
+2019/04/25-11:21:15.541276 3b88         Options.allow_concurrent_memtable_write: 1
+2019/04/25-11:21:15.541309 3b88      Options.enable_write_thread_adaptive_yield: 1
+2019/04/25-11:21:15.541341 3b88             Options.write_thread_max_yield_usec: 100
+2019/04/25-11:21:15.541374 3b88            Options.write_thread_slow_yield_usec: 3
+2019/04/25-11:21:15.541407 3b88                               Options.row_cache: None
+2019/04/25-11:21:15.541439 3b88                              Options.wal_filter: None
+2019/04/25-11:21:15.541472 3b88             Options.avoid_flush_during_recovery: 0
+2019/04/25-11:21:15.541505 3b88             Options.allow_ingest_behind: 0
+2019/04/25-11:21:15.541537 3b88             Options.preserve_deletes: 0
+2019/04/25-11:21:15.541573 3b88             Options.two_write_queues: 0
+2019/04/25-11:21:15.541606 3b88             Options.manual_wal_flush: 0
+2019/04/25-11:21:15.541638 3b88             Options.max_background_jobs: 2
+2019/04/25-11:21:15.541672 3b88             Options.max_background_compactions: -1
+2019/04/25-11:21:15.541704 3b88             Options.avoid_flush_during_shutdown: 0
+2019/04/25-11:21:15.541737 3b88           Options.writable_file_max_buffer_size: 1048576
+2019/04/25-11:21:15.541770 3b88             Options.delayed_write_rate : 16777216
+2019/04/25-11:21:15.541803 3b88             Options.max_total_wal_size: 0
+2019/04/25-11:21:15.541835 3b88             Options.delete_obsolete_files_period_micros: 21600000000
+2019/04/25-11:21:15.541868 3b88                   Options.stats_dump_period_sec: 600
+2019/04/25-11:21:15.541902 3b88                          Options.max_open_files: -1
+2019/04/25-11:21:15.541941 3b88                          Options.bytes_per_sync: 0
+2019/04/25-11:21:15.542003 3b88                      Options.wal_bytes_per_sync: 0
+2019/04/25-11:21:15.542050 3b88       Options.compaction_readahead_size: 0
+2019/04/25-11:21:15.542104 3b88 Compression algorithms supported:
+2019/04/25-11:21:15.542159 3b88 	kZSTD supported: 0
+2019/04/25-11:21:15.542192 3b88 	kSnappyCompression supported: 0
+2019/04/25-11:21:15.542225 3b88 	kBZip2Compression supported: 0
+2019/04/25-11:21:15.542257 3b88 	kZlibCompression supported: 0
+2019/04/25-11:21:15.542290 3b88 	kLZ4Compression supported: 0
+2019/04/25-11:21:15.542323 3b88 	kXpressCompression supported: 0
+2019/04/25-11:21:15.542355 3b88 	kLZ4HCCompression supported: 0
+2019/04/25-11:21:15.542388 3b88 	kZSTDNotFinalCompression supported: 0
+2019/04/25-11:21:15.542422 3b88 Fast CRC32 supported: Supported on x86
+2019/04/25-11:21:15.543383 3b88 [c:\users\aretter\code\rocksdb\db\version_set.cc:3085] Recovering from manifest file: MANIFEST-000071
+2019/04/25-11:21:15.543512 3b88 [c:\users\aretter\code\rocksdb\db\column_family.cc:475] --------------- Options for column family [default]:
+2019/04/25-11:21:15.543550 3b88               Options.comparator: leveldb.BytewiseComparator
+2019/04/25-11:21:15.543584 3b88           Options.merge_operator: None
+2019/04/25-11:21:15.543616 3b88        Options.compaction_filter: None
+2019/04/25-11:21:15.543648 3b88        Options.compaction_filter_factory: None
+2019/04/25-11:21:15.543681 3b88         Options.memtable_factory: SkipListFactory
+2019/04/25-11:21:15.543714 3b88            Options.table_factory: BlockBasedTable
+2019/04/25-11:21:15.543771 3b88            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000000002519EED0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0000000024CB75B0
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+  enable_index_compression: 1
+  block_align: 0
+2019/04/25-11:21:15.543856 3b88        Options.write_buffer_size: 67108864
+2019/04/25-11:21:15.543893 3b88  Options.max_write_buffer_number: 2
+2019/04/25-11:21:15.543945 3b88          Options.compression: NoCompression
+2019/04/25-11:21:15.543993 3b88                  Options.bottommost_compression: Disabled
+2019/04/25-11:21:15.544026 3b88       Options.prefix_extractor: nullptr
+2019/04/25-11:21:15.544059 3b88   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2019/04/25-11:21:15.544092 3b88             Options.num_levels: 7
+2019/04/25-11:21:15.544124 3b88        Options.min_write_buffer_number_to_merge: 1
+2019/04/25-11:21:15.544157 3b88     Options.max_write_buffer_number_to_maintain: 0
+2019/04/25-11:21:15.544189 3b88            Options.compression_opts.window_bits: -14
+2019/04/25-11:21:15.544222 3b88                  Options.compression_opts.level: -1
+2019/04/25-11:21:15.544255 3b88               Options.compression_opts.strategy: 0
+2019/04/25-11:21:15.544287 3b88         Options.compression_opts.max_dict_bytes: 0
+2019/04/25-11:21:15.544320 3b88         Options.compression_opts.zstd_max_train_bytes: 0
+2019/04/25-11:21:15.544353 3b88      Options.level0_file_num_compaction_trigger: 4
+2019/04/25-11:21:15.544385 3b88          Options.level0_slowdown_writes_trigger: 20
+2019/04/25-11:21:15.544418 3b88              Options.level0_stop_writes_trigger: 36
+2019/04/25-11:21:15.544451 3b88                   Options.target_file_size_base: 67108864
+2019/04/25-11:21:15.544483 3b88             Options.target_file_size_multiplier: 1
+2019/04/25-11:21:15.544516 3b88                Options.max_bytes_for_level_base: 268435456
+2019/04/25-11:21:15.544548 3b88 Options.level_compaction_dynamic_level_bytes: 0
+2019/04/25-11:21:15.544581 3b88          Options.max_bytes_for_level_multiplier: 10.000000
+2019/04/25-11:21:15.544615 3b88 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2019/04/25-11:21:15.544648 3b88 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2019/04/25-11:21:15.544680 3b88 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2019/04/25-11:21:15.544713 3b88 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2019/04/25-11:21:15.544746 3b88 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2019/04/25-11:21:15.544778 3b88 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2019/04/25-11:21:15.544811 3b88 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2019/04/25-11:21:15.544844 3b88       Options.max_sequential_skip_in_iterations: 8
+2019/04/25-11:21:15.544876 3b88                    Options.max_compaction_bytes: 1677721600
+2019/04/25-11:21:15.544910 3b88                        Options.arena_block_size: 8388608
+2019/04/25-11:21:15.544943 3b88   Options.soft_pending_compaction_bytes_limit: 68719476736
+2019/04/25-11:21:15.544975 3b88   Options.hard_pending_compaction_bytes_limit: 274877906944
+2019/04/25-11:21:15.545008 3b88       Options.rate_limit_delay_max_milliseconds: 100
+2019/04/25-11:21:15.545041 3b88                Options.disable_auto_compactions: 0
+2019/04/25-11:21:15.545074 3b88                        Options.compaction_style: kCompactionStyleLevel
+2019/04/25-11:21:15.545108 3b88                          Options.compaction_pri: kByCompensatedSize
+2019/04/25-11:21:15.545141 3b88 Options.compaction_options_universal.size_ratio: 1
+2019/04/25-11:21:15.545173 3b88 Options.compaction_options_universal.min_merge_width: 2
+2019/04/25-11:21:15.545206 3b88 Options.compaction_options_universal.max_merge_width: 4294967295
+2019/04/25-11:21:15.545239 3b88 Options.compaction_options_universal.max_size_amplification_percent: 200
+2019/04/25-11:21:15.545272 3b88 Options.compaction_options_universal.compression_size_percent: -1
+2019/04/25-11:21:15.545353 3b88 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2019/04/25-11:21:15.545388 3b88 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2019/04/25-11:21:15.545421 3b88 Options.compaction_options_fifo.allow_compaction: 0
+2019/04/25-11:21:15.545454 3b88 Options.compaction_options_fifo.ttl: 0
+2019/04/25-11:21:15.545487 3b88                   Options.table_properties_collectors: 
+2019/04/25-11:21:15.545519 3b88                   Options.inplace_update_support: 0
+2019/04/25-11:21:15.545552 3b88                 Options.inplace_update_num_locks: 10000
+2019/04/25-11:21:15.545585 3b88               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2019/04/25-11:21:15.545618 3b88   Options.memtable_huge_page_size: 0
+2019/04/25-11:21:15.545650 3b88                           Options.bloom_locality: 0
+2019/04/25-11:21:15.545683 3b88                    Options.max_successive_merges: 0
+2019/04/25-11:21:15.545716 3b88                Options.optimize_filters_for_hits: 0
+2019/04/25-11:21:15.545749 3b88                Options.paranoid_file_checks: 0
+2019/04/25-11:21:15.545781 3b88                Options.force_consistency_checks: 0
+2019/04/25-11:21:15.545814 3b88                Options.report_bg_io_stats: 0
+2019/04/25-11:21:15.545846 3b88                               Options.ttl: 0
+2019/04/25-11:21:15.546842 3b88 [c:\users\aretter\code\rocksdb\db\version_set.cc:3361] Recovered from manifest file:F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/MANIFEST-000071 succeeded,manifest_file_number is 71, next_file_number is 73, last_sequence is 12433, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2019/04/25-11:21:15.546965 3b88 [c:\users\aretter\code\rocksdb\db\version_set.cc:3369] Column family [default] (ID 0), log number is 70
+2019/04/25-11:21:15.547405 3b88 EVENT_LOG_v1 {"time_micros": 1556162475547393, "job": 1, "event": "recovery_started", "log_files": [72]}
+2019/04/25-11:21:15.547455 3b88 [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:551] Recovering log #72 mode 2
+2019/04/25-11:21:15.586333 3b88 EVENT_LOG_v1 {"time_micros": 1556162475586315, "cf_name": "default", "job": 1, "event": "table_file_creation", "file_number": 73, "file_size": 35885, "table_properties": {"data_size": 34416, "index_size": 555, "filter_size": 0, "raw_key_size": 19390, "raw_average_key_size": 70, "raw_value_size": 25554, "raw_average_value_size": 92, "num_data_blocks": 9, "num_entries": 276, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
+2019/04/25-11:21:15.586589 3b88 [c:\users\aretter\code\rocksdb\db\version_set.cc:2847] Creating manifest 74
+2019/04/25-11:21:15.651334 3b88 EVENT_LOG_v1 {"time_micros": 1556162475651326, "job": 1, "event": "recovery_finished"}
+2019/04/25-11:21:15.655471 3b88 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 2] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000052.sst type=2 #52 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000052.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/25-11:21:15.655528 3b88 EVENT_LOG_v1 {"time_micros": 1556162475655518, "job": 2, "event": "table_file_deletion", "file_number": 52, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000052.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/25-11:21:15.655711 3b88 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 2] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000046.sst type=2 #46 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000046.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/25-11:21:15.655760 3b88 EVENT_LOG_v1 {"time_micros": 1556162475655753, "job": 2, "event": "table_file_deletion", "file_number": 46, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000046.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/25-11:21:15.655904 3b88 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 2] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000040.sst type=2 #40 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000040.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/25-11:21:15.655951 3b88 EVENT_LOG_v1 {"time_micros": 1556162475655945, "job": 2, "event": "table_file_deletion", "file_number": 40, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000040.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/25-11:21:15.656084 3b88 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 2] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000034.sst type=2 #34 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000034.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/25-11:21:15.656128 3b88 EVENT_LOG_v1 {"time_micros": 1556162475656122, "job": 2, "event": "table_file_deletion", "file_number": 34, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000034.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/25-11:21:15.656253 3b88 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 2] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000030.sst type=2 #30 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000030.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/25-11:21:15.656296 3b88 EVENT_LOG_v1 {"time_micros": 1556162475656291, "job": 2, "event": "table_file_deletion", "file_number": 30, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000030.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/25-11:21:15.656420 3b88 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 2] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000025.sst type=2 #25 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000025.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/25-11:21:15.656463 3b88 EVENT_LOG_v1 {"time_micros": 1556162475656458, "job": 2, "event": "table_file_deletion", "file_number": 25, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000025.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/25-11:21:15.656586 3b88 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 2] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000019.sst type=2 #19 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000019.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/25-11:21:15.656630 3b88 EVENT_LOG_v1 {"time_micros": 1556162475656625, "job": 2, "event": "table_file_deletion", "file_number": 19, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000019.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/25-11:21:15.656755 3b88 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 2] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000013.sst type=2 #13 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000013.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/25-11:21:15.656798 3b88 EVENT_LOG_v1 {"time_micros": 1556162475656793, "job": 2, "event": "table_file_deletion", "file_number": 13, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000013.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/25-11:21:15.656926 3b88 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 2] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000004.sst type=2 #4 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000004.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/25-11:21:15.656970 3b88 EVENT_LOG_v1 {"time_micros": 1556162475656965, "job": 2, "event": "table_file_deletion", "file_number": 4, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000004.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/25-11:21:15.690119 3b88 [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:1219] DB pointer 0000000027472820
+2019/04/25-11:21:52.615065 7564 [c:\users\aretter\code\rocksdb\db\db_impl.cc:252] Shutdown: canceling all background work
+2019/04/25-11:21:52.617984 7564 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 3] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000052.sst type=2 #52 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000052.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/25-11:21:52.618347 7564 EVENT_LOG_v1 {"time_micros": 1556162512618288, "job": 3, "event": "table_file_deletion", "file_number": 52, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000052.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/25-11:21:52.619182 7564 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 3] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000046.sst type=2 #46 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000046.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/25-11:21:52.619433 7564 EVENT_LOG_v1 {"time_micros": 1556162512619395, "job": 3, "event": "table_file_deletion", "file_number": 46, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000046.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/25-11:21:52.620234 7564 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 3] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000040.sst type=2 #40 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000040.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/25-11:21:52.620492 7564 EVENT_LOG_v1 {"time_micros": 1556162512620450, "job": 3, "event": "table_file_deletion", "file_number": 40, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000040.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/25-11:21:52.621252 7564 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 3] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000034.sst type=2 #34 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000034.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/25-11:21:52.621495 7564 EVENT_LOG_v1 {"time_micros": 1556162512621464, "job": 3, "event": "table_file_deletion", "file_number": 34, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000034.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/25-11:21:52.622150 7564 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 3] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000030.sst type=2 #30 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000030.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/25-11:21:52.622342 7564 EVENT_LOG_v1 {"time_micros": 1556162512622317, "job": 3, "event": "table_file_deletion", "file_number": 30, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000030.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/25-11:21:52.623022 7564 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 3] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000025.sst type=2 #25 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000025.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/25-11:21:52.623236 7564 EVENT_LOG_v1 {"time_micros": 1556162512623208, "job": 3, "event": "table_file_deletion", "file_number": 25, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000025.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/25-11:21:52.623826 7564 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 3] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000019.sst type=2 #19 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000019.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/25-11:21:52.624012 7564 EVENT_LOG_v1 {"time_micros": 1556162512623988, "job": 3, "event": "table_file_deletion", "file_number": 19, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000019.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/25-11:21:52.624651 7564 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 3] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000013.sst type=2 #13 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000013.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/25-11:21:52.625000 7564 EVENT_LOG_v1 {"time_micros": 1556162512624883, "job": 3, "event": "table_file_deletion", "file_number": 13, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000013.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/25-11:21:52.625808 7564 [c:\users\aretter\code\rocksdb\db\db_impl_files.cc:268] [JOB 3] Tried to delete a non-existing file F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000004.sst type=2 #4 -- IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000004.sst: ¾Ü¾ø·ÃÎÊ¡£
+
+2019/04/25-11:21:52.626006 7564 EVENT_LOG_v1 {"time_micros": 1556162512625978, "job": 3, "event": "table_file_deletion", "file_number": 4, "status": "IO error: Failed to delete: F:\program_work\java_work\CSDNCourse\WebCollectorTest\huanqiuAutoNewsCrawler\crawldb/000004.sst: ¾Ü¾ø·ÃÎÊ¡£
+"}
+2019/04/25-11:21:52.741814 7564 [c:\users\aretter\code\rocksdb\db\db_impl.cc:398] Shutdown complete

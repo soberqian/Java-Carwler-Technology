@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+	<book category="java">
+		<title>Java编程思想</title>
+		<author> Bruce Eckel</author>
+	</book>
+	<book category="C++">
+		<title>C++ Primer Plus</title>
+		<author>Stephen Prata</author>
+	</book>
+	<book category="python">
+		<title>Python核心编程</title>
+		<author>Wesley Chun</author>
+	</book>
+</books>

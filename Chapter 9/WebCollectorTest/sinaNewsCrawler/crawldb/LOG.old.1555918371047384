@@ -1,0 +1,187 @@
+2019/04/22-15:32:00.610062 db38 RocksDB version: 5.14.2
+2019/04/22-15:32:00.610170 db38 Git sha rocksdb_build_git_sha:@5089e121166c46956a8a21c8ef967f1896c239de@
+2019/04/22-15:32:00.610255 db38 Compile date Jul  6 2018
+2019/04/22-15:32:00.610342 db38 DB SUMMARY
+2019/04/22-15:32:00.610666 db38 CURRENT file:  CURRENT
+2019/04/22-15:32:00.610752 db38 IDENTITY file:  IDENTITY
+2019/04/22-15:32:00.610847 db38 MANIFEST file:  MANIFEST-000047 size: 456 Bytes
+2019/04/22-15:32:00.610929 db38 SST files in sinaNewsCrawler/crawldb dir, Total Num: 3, files: 000033.sst 000037.sst 000043.sst 
+2019/04/22-15:32:00.611008 db38 Write Ahead Log file in sinaNewsCrawler/crawldb: 000048.log size: 0 ; 
+2019/04/22-15:32:00.611088 db38                         Options.error_if_exists: 0
+2019/04/22-15:32:00.611608 db38                       Options.create_if_missing: 1
+2019/04/22-15:32:00.611646 db38                         Options.paranoid_checks: 1
+2019/04/22-15:32:00.611677 db38                                     Options.env: 00000000010EA470
+2019/04/22-15:32:00.611709 db38                                Options.info_log: 00000000251A11C0
+2019/04/22-15:32:00.611739 db38                Options.max_file_opening_threads: 16
+2019/04/22-15:32:00.611770 db38                              Options.statistics: 0000000000000000
+2019/04/22-15:32:00.611801 db38                               Options.use_fsync: 0
+2019/04/22-15:32:00.611841 db38                       Options.max_log_file_size: 0
+2019/04/22-15:32:00.611877 db38                  Options.max_manifest_file_size: 18446744073709551615
+2019/04/22-15:32:00.611974 db38                   Options.log_file_time_to_roll: 0
+2019/04/22-15:32:00.612007 db38                       Options.keep_log_file_num: 1000
+2019/04/22-15:32:00.612038 db38                    Options.recycle_log_file_num: 0
+2019/04/22-15:32:00.612069 db38                         Options.allow_fallocate: 1
+2019/04/22-15:32:00.612099 db38                        Options.allow_mmap_reads: 0
+2019/04/22-15:32:00.612130 db38                       Options.allow_mmap_writes: 0
+2019/04/22-15:32:00.612161 db38                        Options.use_direct_reads: 0
+2019/04/22-15:32:00.612192 db38                        Options.use_direct_io_for_flush_and_compaction: 0
+2019/04/22-15:32:00.612223 db38          Options.create_missing_column_families: 0
+2019/04/22-15:32:00.612253 db38                              Options.db_log_dir: 
+2019/04/22-15:32:00.612285 db38                                 Options.wal_dir: sinaNewsCrawler/crawldb
+2019/04/22-15:32:00.612315 db38                Options.table_cache_numshardbits: 6
+2019/04/22-15:32:00.612346 db38                      Options.max_subcompactions: 1
+2019/04/22-15:32:00.612377 db38                  Options.max_background_flushes: -1
+2019/04/22-15:32:00.612408 db38                         Options.WAL_ttl_seconds: 0
+2019/04/22-15:32:00.612440 db38                       Options.WAL_size_limit_MB: 0
+2019/04/22-15:32:00.612498 db38             Options.manifest_preallocation_size: 4194304
+2019/04/22-15:32:00.612545 db38                     Options.is_fd_close_on_exec: 1
+2019/04/22-15:32:00.612576 db38                   Options.advise_random_on_open: 1
+2019/04/22-15:32:00.612607 db38                    Options.db_write_buffer_size: 0
+2019/04/22-15:32:00.612638 db38                    Options.write_buffer_manager: 00000000251D4740
+2019/04/22-15:32:00.612669 db38         Options.access_hint_on_compaction_start: 1
+2019/04/22-15:32:00.612700 db38  Options.new_table_reader_for_compaction_inputs: 0
+2019/04/22-15:32:00.612731 db38           Options.random_access_max_buffer_size: 1048576
+2019/04/22-15:32:00.612795 db38                      Options.use_adaptive_mutex: 0
+2019/04/22-15:32:00.612839 db38                            Options.rate_limiter: 0000000000000000
+2019/04/22-15:32:00.612899 db38     Options.sst_file_manager.rate_bytes_per_sec: 0
+2019/04/22-15:32:00.612935 db38                       Options.wal_recovery_mode: 2
+2019/04/22-15:32:00.612983 db38                  Options.enable_thread_tracking: 0
+2019/04/22-15:32:00.613014 db38                  Options.enable_pipelined_write: 0
+2019/04/22-15:32:00.613101 db38         Options.allow_concurrent_memtable_write: 1
+2019/04/22-15:32:00.613135 db38      Options.enable_write_thread_adaptive_yield: 1
+2019/04/22-15:32:00.613166 db38             Options.write_thread_max_yield_usec: 100
+2019/04/22-15:32:00.613197 db38            Options.write_thread_slow_yield_usec: 3
+2019/04/22-15:32:00.613257 db38                               Options.row_cache: None
+2019/04/22-15:32:00.613343 db38                              Options.wal_filter: None
+2019/04/22-15:32:00.613420 db38             Options.avoid_flush_during_recovery: 0
+2019/04/22-15:32:00.613492 db38             Options.allow_ingest_behind: 0
+2019/04/22-15:32:00.613524 db38             Options.preserve_deletes: 0
+2019/04/22-15:32:00.613555 db38             Options.two_write_queues: 0
+2019/04/22-15:32:00.613598 db38             Options.manual_wal_flush: 0
+2019/04/22-15:32:00.613629 db38             Options.max_background_jobs: 2
+2019/04/22-15:32:00.613660 db38             Options.max_background_compactions: -1
+2019/04/22-15:32:00.613690 db38             Options.avoid_flush_during_shutdown: 0
+2019/04/22-15:32:00.613721 db38           Options.writable_file_max_buffer_size: 1048576
+2019/04/22-15:32:00.613752 db38             Options.delayed_write_rate : 16777216
+2019/04/22-15:32:00.613783 db38             Options.max_total_wal_size: 0
+2019/04/22-15:32:00.613813 db38             Options.delete_obsolete_files_period_micros: 21600000000
+2019/04/22-15:32:00.613844 db38                   Options.stats_dump_period_sec: 600
+2019/04/22-15:32:00.613875 db38                          Options.max_open_files: -1
+2019/04/22-15:32:00.613906 db38                          Options.bytes_per_sync: 0
+2019/04/22-15:32:00.613937 db38                      Options.wal_bytes_per_sync: 0
+2019/04/22-15:32:00.613981 db38       Options.compaction_readahead_size: 0
+2019/04/22-15:32:00.614025 db38 Compression algorithms supported:
+2019/04/22-15:32:00.614071 db38 	kZSTD supported: 0
+2019/04/22-15:32:00.614102 db38 	kSnappyCompression supported: 0
+2019/04/22-15:32:00.614132 db38 	kBZip2Compression supported: 0
+2019/04/22-15:32:00.614163 db38 	kZlibCompression supported: 0
+2019/04/22-15:32:00.614193 db38 	kLZ4Compression supported: 0
+2019/04/22-15:32:00.614224 db38 	kXpressCompression supported: 0
+2019/04/22-15:32:00.614254 db38 	kLZ4HCCompression supported: 0
+2019/04/22-15:32:00.614285 db38 	kZSTDNotFinalCompression supported: 0
+2019/04/22-15:32:00.614324 db38 Fast CRC32 supported: Supported on x86
+2019/04/22-15:32:00.615583 db38 [c:\users\aretter\code\rocksdb\db\version_set.cc:3085] Recovering from manifest file: MANIFEST-000047
+2019/04/22-15:32:00.615765 db38 [c:\users\aretter\code\rocksdb\db\column_family.cc:475] --------------- Options for column family [default]:
+2019/04/22-15:32:00.615810 db38               Options.comparator: leveldb.BytewiseComparator
+2019/04/22-15:32:00.615842 db38           Options.merge_operator: None
+2019/04/22-15:32:00.615873 db38        Options.compaction_filter: None
+2019/04/22-15:32:00.615904 db38        Options.compaction_filter_factory: None
+2019/04/22-15:32:00.615935 db38         Options.memtable_factory: SkipListFactory
+2019/04/22-15:32:00.615966 db38            Options.table_factory: BlockBasedTable
+2019/04/22-15:32:00.616039 db38            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (00000000010C3650)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0000000001104EA0
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 2
+  enable_index_compression: 1
+  block_align: 0
+2019/04/22-15:32:00.616125 db38        Options.write_buffer_size: 67108864
+2019/04/22-15:32:00.616158 db38  Options.max_write_buffer_number: 2
+2019/04/22-15:32:00.616189 db38          Options.compression: NoCompression
+2019/04/22-15:32:00.616220 db38                  Options.bottommost_compression: Disabled
+2019/04/22-15:32:00.616251 db38       Options.prefix_extractor: nullptr
+2019/04/22-15:32:00.616281 db38   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2019/04/22-15:32:00.616312 db38             Options.num_levels: 7
+2019/04/22-15:32:00.616342 db38        Options.min_write_buffer_number_to_merge: 1
+2019/04/22-15:32:00.616373 db38     Options.max_write_buffer_number_to_maintain: 0
+2019/04/22-15:32:00.616404 db38            Options.compression_opts.window_bits: -14
+2019/04/22-15:32:00.616437 db38                  Options.compression_opts.level: -1
+2019/04/22-15:32:00.616504 db38               Options.compression_opts.strategy: 0
+2019/04/22-15:32:00.616535 db38         Options.compression_opts.max_dict_bytes: 0
+2019/04/22-15:32:00.616566 db38         Options.compression_opts.zstd_max_train_bytes: 0
+2019/04/22-15:32:00.616597 db38      Options.level0_file_num_compaction_trigger: 4
+2019/04/22-15:32:00.616628 db38          Options.level0_slowdown_writes_trigger: 20
+2019/04/22-15:32:00.616658 db38              Options.level0_stop_writes_trigger: 36
+2019/04/22-15:32:00.616689 db38                   Options.target_file_size_base: 67108864
+2019/04/22-15:32:00.616720 db38             Options.target_file_size_multiplier: 1
+2019/04/22-15:32:00.616750 db38                Options.max_bytes_for_level_base: 268435456
+2019/04/22-15:32:00.616781 db38 Options.level_compaction_dynamic_level_bytes: 0
+2019/04/22-15:32:00.616812 db38          Options.max_bytes_for_level_multiplier: 10.000000
+2019/04/22-15:32:00.616855 db38 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2019/04/22-15:32:00.616886 db38 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2019/04/22-15:32:00.616917 db38 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2019/04/22-15:32:00.616948 db38 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2019/04/22-15:32:00.616978 db38 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2019/04/22-15:32:00.617009 db38 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2019/04/22-15:32:00.617040 db38 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2019/04/22-15:32:00.617070 db38       Options.max_sequential_skip_in_iterations: 8
+2019/04/22-15:32:00.617101 db38                    Options.max_compaction_bytes: 1677721600
+2019/04/22-15:32:00.617132 db38                        Options.arena_block_size: 8388608
+2019/04/22-15:32:00.617163 db38   Options.soft_pending_compaction_bytes_limit: 68719476736
+2019/04/22-15:32:00.617193 db38   Options.hard_pending_compaction_bytes_limit: 274877906944
+2019/04/22-15:32:00.617224 db38       Options.rate_limit_delay_max_milliseconds: 100
+2019/04/22-15:32:00.617255 db38                Options.disable_auto_compactions: 0
+2019/04/22-15:32:00.617286 db38                        Options.compaction_style: kCompactionStyleLevel
+2019/04/22-15:32:00.617318 db38                          Options.compaction_pri: kByCompensatedSize
+2019/04/22-15:32:00.617349 db38 Options.compaction_options_universal.size_ratio: 1
+2019/04/22-15:32:00.617380 db38 Options.compaction_options_universal.min_merge_width: 2
+2019/04/22-15:32:00.617410 db38 Options.compaction_options_universal.max_merge_width: 4294967295
+2019/04/22-15:32:00.617442 db38 Options.compaction_options_universal.max_size_amplification_percent: 200
+2019/04/22-15:32:00.617473 db38 Options.compaction_options_universal.compression_size_percent: -1
+2019/04/22-15:32:00.617504 db38 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2019/04/22-15:32:00.617535 db38 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2019/04/22-15:32:00.617568 db38 Options.compaction_options_fifo.allow_compaction: 0
+2019/04/22-15:32:00.617599 db38 Options.compaction_options_fifo.ttl: 0
+2019/04/22-15:32:00.617630 db38                   Options.table_properties_collectors: 
+2019/04/22-15:32:00.617661 db38                   Options.inplace_update_support: 0
+2019/04/22-15:32:00.617692 db38                 Options.inplace_update_num_locks: 10000
+2019/04/22-15:32:00.617722 db38               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2019/04/22-15:32:00.617754 db38   Options.memtable_huge_page_size: 0
+2019/04/22-15:32:00.617784 db38                           Options.bloom_locality: 0
+2019/04/22-15:32:00.617815 db38                    Options.max_successive_merges: 0
+2019/04/22-15:32:00.617846 db38                Options.optimize_filters_for_hits: 0
+2019/04/22-15:32:00.617877 db38                Options.paranoid_file_checks: 0
+2019/04/22-15:32:00.617907 db38                Options.force_consistency_checks: 0
+2019/04/22-15:32:00.617938 db38                Options.report_bg_io_stats: 0
+2019/04/22-15:32:00.617969 db38                               Options.ttl: 0
+2019/04/22-15:32:00.644140 db38 [c:\users\aretter\code\rocksdb\db\version_set.cc:3361] Recovered from manifest file:sinaNewsCrawler/crawldb/MANIFEST-000047 succeeded,manifest_file_number is 47, next_file_number is 49, last_sequence is 1288, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2019/04/22-15:32:00.644191 db38 [c:\users\aretter\code\rocksdb\db\version_set.cc:3369] Column family [default] (ID 0), log number is 46
+2019/04/22-15:32:00.644596 db38 EVENT_LOG_v1 {"time_micros": 1555918320644558, "job": 1, "event": "recovery_started", "log_files": [48]}
+2019/04/22-15:32:00.644634 db38 [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:551] Recovering log #48 mode 2
+2019/04/22-15:32:00.644809 db38 [c:\users\aretter\code\rocksdb\db\version_set.cc:2847] Creating manifest 50
+2019/04/22-15:32:00.740885 db38 EVENT_LOG_v1 {"time_micros": 1555918320740878, "job": 1, "event": "recovery_finished"}
+2019/04/22-15:32:00.784699 db38 [c:\users\aretter\code\rocksdb\db\db_impl_open.cc:1219] DB pointer 0000000025019080

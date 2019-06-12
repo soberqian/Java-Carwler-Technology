@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<connectionInfo>
+		<node1>
+			<nodeName>node1</nodeName>
+			<driver-name>com.mysql.jdbc.Driver</driver-name>
+			<url>jdbc:mysql://127.0.0.1:3306/crawler</url>
+			<username>root</username>
+			<password>112233</password>
+		</node1>
+
+		<node2>
+			<nodeName>node2</nodeName>
+			<driver-name>com.mysql.jdbc.Driver</driver-name>
+			<url>jdbc:mysql://114.213.252.26:3306/crawler</url>
+			<username>root</username>
+			<password>112233</password>
+		</node2>
+
+	</connectionInfo>
+</config>
