@@ -20,10 +20,10 @@ public class LoginRenren {
 		driver.get("http://sns.renren.com/");
 		//元素定位，提交用户名以及密码
 		driver.findElementByName("email").clear();  //清空后输入
-		driver.findElementByName("email").sendKeys("1563178220@qq.com");
+		driver.findElementByName("email").sendKeys("*******");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.findElementById("password").clear(); //清空后输入
-		driver.findElementById("password").sendKeys("qianyang");
+		driver.findElementById("password").sendKeys("*******");
 		//元素定位，点击登陆按钮
 		driver.findElementById("login").click();
 		Thread.sleep(10*1000);  //休息一段时间,使得网页充分加载。注意这里非常有必要
