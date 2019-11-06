@@ -24,8 +24,8 @@ public class HttpclientRenren {
 		HttpPost httpost = new HttpPost(renRenLoginURL);  //采用post方法
 		//建立一个NameValuePair数组，用于存储欲传送的参数
 		List<NameValuePair> nvps = new ArrayList<NameValuePair>();  
-		nvps.add(new BasicNameValuePair("email", "1563178220@qq.com"));   //输入你的邮箱地址
-		nvps.add(new BasicNameValuePair("password", "qianyang"));   //输入你的密码
+		nvps.add(new BasicNameValuePair("email", "*****"));   //输入你的邮箱地址
+		nvps.add(new BasicNameValuePair("password", "*****"));   //输入你的密码
 		HttpResponse response = null;
 		try {  
 			//表单参数提交
